@@ -5,6 +5,7 @@ import './App.css';
 import Home from './pages/Home';
 import Places from './pages/Places';
 import Navbar from './components/navbar/Navbar';
+import ObserverPage from './pages/Observer';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route path='/places'>
           <Places />
+        </Route>
+        <Route path="/observer">
+          <ObserverPage />
         </Route>
         <Route path="/">
           <Home />
